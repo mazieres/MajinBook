@@ -2,7 +2,7 @@
 
 This document outlines the structure and metadata schemas of the datasets released with *MajinBook: An open catalogue of world literature with likes* by [Antoine Mazières](https://mazieres.gitlab.io/) and [Thierry Poibeau](https://www.lattice.cnrs.fr/membres/chercheurs-ou-enseignants-chercheurs/thierry-poibeau/).
 
-The data is available on [Zenodo](https://zenodo.org/records/17609566) and the paper on [ArXiV](https://arxiv.org/abs/2511.11412).
+The data is available on [Zenodo](https://zenodo.org/records/17609566) and the paper on [ArXiv](https://arxiv.org/abs/2511.11412).
 
 All files are in the [JSON Lines text file format](https://jsonlines.org/).
 
@@ -70,7 +70,7 @@ This section describes the primary high-precision English catalogue introduced i
 | `libgen_ids` | List[str] | 60%<sup>4</sup> | List of LibGen IDs (`str`) corresponding to this work |
 
 Notes:
-1. Coverage is for the primary dataset only (English). Coverage varies fir secondary datasets regarding `genres` and `n_reviews`, see the [paper](https://arxiv.org/abs/2511.11412).
+1. Coverage is for the primary dataset only (English). Coverage varies for secondary datasets regarding `genres` and `n_reviews`, see the [paper](https://arxiv.org/abs/2511.11412).
 2. `Goodreads Author ID (int)` corresponds to the ID of the Author found in the URL of their profile, as in [`goodreads.com/author/show/233619`](https://www.goodreads.com/author/show/233619)
 3. Goodreads Work ID, as in [`goodreads.com/work/editions/45683795`](https://www.goodreads.com/work/editions/45683795)
 4. `zlibrary_ids` and `libgen_ids` cannot both be `null`.
