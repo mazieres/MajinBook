@@ -1,6 +1,9 @@
 # MajinBook
 
-This document outlines the structure and metadata schemas of the datasets released with *MajinBook: An open catalogue of world literature with likes* by [Antoine Mazières](https://mazieres.gitlab.io/) and [Thierry Poibeau](https://www.lattice.cnrs.fr/membres/chercheurs-ou-enseignants-chercheurs/thierry-poibeau/).
+This document outlines the structure and metadata schemas of the datasets released with *MajinBook: An open catalogue of digitally mediated world literature* by [Antoine Mazières](https://mazieres.gitlab.io/) and [Thierry Poibeau](https://www.lattice.cnrs.fr/membres/chercheurs-ou-enseignants-chercheurs/thierry-poibeau/).
+
+**Abstract**
+*This data paper introduces MajinBook, an open catalogue designed to facilitate the use of shadow libraries, such as Library Genesis and Z-Library, for computational social science and cultural analytics. By linking metadata from these vast, crowd-sourced archives with structured bibliographic data from Goodreads, we create a high-precision corpus of over 539,000 references to digitally mediated English-language books. Spanning three centuries and reflecting a contemporary selection bias, these entries are enriched with first publication dates, genres, and popularity metrics such as ratings and reviews. Our methodology prioritises natively digital EPUB files to ensure machine-readable quality, while addressing biases in traditional corpora such as HathiTrust, and includes secondary datasets for French-, German-, and Spanish-language works. We evaluate the linkage strategy for accuracy, release all underlying data openly, and discuss the project’s legal permissibility under EU and U.S. frameworks for text and data mining in research.*
 
 The data is available on [Zenodo](https://zenodo.org/records/17609566) and the paper on [ArXiv](https://arxiv.org/abs/2511.11412).
 
