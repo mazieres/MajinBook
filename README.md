@@ -7,7 +7,7 @@ This document outlines the structure and metadata schemas of the datasets releas
 
 The data is available on [Zenodo](https://doi.org/10.5281/zenodo.17609566) and [HuggingFace](https://huggingface.co/datasets/mazieres/majinbook).
 
-The paper is available on the website of [Journal of Cultural Analytics](https://culturalanalytics.org/article/id/1164/).
+The paper is available on the website of the [Journal of Cultural Analytics](https://culturalanalytics.org/article/id/1164/).
 
 All files are in the [JSON Lines text file format](https://jsonlines.org/).
 
