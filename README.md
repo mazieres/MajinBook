@@ -13,7 +13,7 @@ All files are in the [JSON Lines text file format](https://jsonlines.org/).
 
 ## 1\. The MajinBook's Catalogue
 
-This section describes the primary high-precision English catalogue introduced in the [paper](https://arxiv.org/abs/2511.11412). The secondary datasets in French, German and Spanish follow the same model.
+This section describes the primary high-precision English catalogue introduced in the [paper](https://culturalanalytics.org/article/id/1164/). The secondary datasets in French, German and Spanish follow the same model.
 
 **Files**
 
@@ -75,7 +75,7 @@ This section describes the primary high-precision English catalogue introduced i
 | `libgen_ids` | List[str] | 60%<sup>4</sup> | List of LibGen IDs (`str`) corresponding to this work |
 
 Notes:
-1. Coverage is for the primary dataset only (English). Coverage varies for secondary datasets regarding `genres` and `n_reviews`, see the [paper](https://arxiv.org/abs/2511.11412).
+1. Coverage is for the primary dataset only (English). Coverage varies for secondary datasets regarding `genres` and `n_reviews`, see the [paper](https://culturalanalytics.org/article/id/1164/).
 2. `Goodreads Author ID (int)` corresponds to the ID of the Author found in the URL of their profile, as in [`goodreads.com/author/show/233619`](https://www.goodreads.com/author/show/233619)
 3. Goodreads Work ID, as in [`goodreads.com/work/editions/45683795`](https://www.goodreads.com/work/editions/45683795)
 4. `zlibrary_ids` and `libgen_ids` cannot both be `null`.
@@ -306,4 +306,4 @@ This section describes the metadata datasets collected and processed to construc
 | --- | --- | --- | --- |
 | `source` | String | 100% | Source dataset (`libgen` or `zlibrary`) |
 | `id` | String / Integer | 100% | Unique ID in the source dataset (MD5 hash string for `libgen`, integer for `zlibrary`) |
-| `minhash_signature` | List[int] | 100% | A list of 128 integers representing the document's MinHash signature (see Section 3.3 of the [paper](https://arxiv.org/abs/2511.11412)) |
+| `minhash_signature` | List[int] | 100% | A list of 128 integers representing the document's MinHash signature (see Section 3.3 of the [paper](https://culturalanalytics.org/article/id/1164/)) |
