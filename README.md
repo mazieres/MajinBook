@@ -11,6 +11,8 @@ The paper is available on the website of the [Journal of Cultural Analytics](htt
 
 All files are in the [JSON Lines text file format](https://jsonlines.org/).
 
+Word frequencies across the underlying books can be explored with [Gallicagram](https://www.gallicagram.com/?word=thank%26sorry&corpus=eng_majinbook&mode=ngram&start=1800&end=2025&smoothing=10).
+
 ## 1\. The MajinBook's Catalogue
 
 This section describes the primary high-precision English catalogue introduced in the [paper](https://culturalanalytics.org/article/id/1164/). The secondary datasets in French, German and Spanish follow the same model.
